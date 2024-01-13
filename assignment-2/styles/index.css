@@ -1,0 +1,54 @@
+body {
+    background-color: #dfdfd8;
+  }
+  
+  .main-bg-image {
+    background-image: url("https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-min-an-1234035.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 90vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  
+  .card-1 {
+    background-image: url("https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-lucas-pezeta-2121066.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 1000px;
+  
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  .card-1 h4 {
+    width: 40vw;
+    border: "1px solid red";
+  }
+  .card-2 {
+    background-image: url("https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-andrea-piacquadio-3779750.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height: 500px;
+  
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  /* .main-bg-image>div{
+      
+    } */
+  
