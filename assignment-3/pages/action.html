@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma-Web UI Components Action</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+
+<body>
+  <div class="custome-container">
+    <!-- -------------header section-------------- -->
+    <section id="header">
+      <nav class="nav d-flex align-items-center">
+        <h3>Web UI Components</h3>
+        <button type="button" class="btn btn-primary ml-auto py-2 px-4 header-btn">
+          Actions
+        </button>
+      </nav>
+    </section>
+    <!-- -- -------------button section-------------- -->
+
+    <section id="button">
+      <h5>Button</h5>
+
+      <hr />
+      <div>
+        <div class="row">
+          <div class="col group-flex">
+            <button type="button" class="btn btn-primary">
+              Button Label
+            </button>
+            <button type="button" class="btn btn-outline-primary">
+              Button Label
+            </button>
+            <button type="button" class="btn btn-outline-primary ghost">
+              Button Label
+            </button>
+            <button type="button" class="btn btn-outline-dark">
+              Button Label
+            </button>
+          </div>
+          <div class="col group-flex">
+            <button type="button" class="btn btn-primary disabled">
+              Button Label
+            </button>
+            <button type="button" class="btn btn-outline-primary disabled">
+              Button Label
+            </button>
+            <button type="button" class="btn btn-outline-primary ghost disabled">
+              Button Label
+            </button>
+            <button type="button" class="btn btn-outline-dark disabled">
+              Button Label
+            </button>
+          </div>
+          <div class="col d-none d-sm-block"></div>
+          <div class="col d-none d-md-block"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -- -------------Tab section-------------- -->
+
+    <section id="tab">
+      <h5>Tab</h5>
+      <hr />
+      <div class="tab">
+        <div class="group-flex">
+          <div class="btn-group">
+            <a href="#" class="btn btn-outline-dark" aria-current="page">Active</a>
+            <a href="#" class="btn btn-outline-dark disabled">Inactive</a>
+          </div>
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary" aria-current="page">Active</a>
+            <a href="#" class="btn btn-outline-dark disabled">Inactive</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -- -------------checkbox section-------------- -->
+
+    <section id="checkbox">
+      <h5>Checkbox</h5>
+      <hr />
+      <div class="checkbox">
+        <div class="group-flex ml-1">
+          <div class="form-check">
+            <input type="checkbox" class="custom-control-input" name="all-1" id="all-1" checked />
+            <label class="custom-control-label" for="all-1">Checked</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="custom-control-input" name="all-3" id="all-2" />
+            <label class="custom-control-label" for="all-2">Unchecked</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="custom-control-input indeterminate" name="all-3" id="all-3" checked />
+            <label class="custom-control-label" for="all-3">Indeterminate</label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -- -------------radio section-------------- -->
+
+    <section id="radio">
+      <h5>Radio Button</h5>
+      <hr />
+      <div class="radio">
+        <div class="group-flex">
+          <div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input"
+                checked />
+              <label class="custom-control-label" for="customRadioInline1">Checked</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" />
+              <label class="custom-control-label" for="customRadioInline2">Unhecked</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -- -------------toggle section-------------- -->
+
+    <section id="toggle">
+      <h5>Toggle Switch</h5>
+      <hr />
+      <div class="toggle">
+        <div class="group-flex">
+          <div id="theme-toggle">
+            <input class="theme-toggle" aria-label="theme-btn" type="checkbox" checked />
+            <input class="theme-toggle" aria-label="theme-btn" type="checkbox" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -- -------------slider section-------------- -->
+
+    <section id="slider">
+      <h5>Slider</h5>
+      <hr />
+      <div class="slider">
+        <div class="group-flex">
+          <div class="range">
+            <input type="range" class="form-range" id="customRange1" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -- -------------pagination section-------------- -->
+
+    <section id="pagination">
+      <h5>Pagination</h5>
+      <hr />
+      <div>
+        <div class="group-flex">
+          <div aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item disabled mr-3">
+                <a class="page-link" href="#"><i class="fa fa-chevron-left pr-1" aria-hidden="true"></i>
+                  Prev</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">...</a></li>
+              <li class="page-item"><a class="page-link" href="#">9</a></li>
+              <li class="page-item"><a class="page-link" href="#">10</a></li>
+              <li class="page-item ml-3">
+                <a class="page-link" href="#">Next
+                  <i class="fa fa-chevron-right pl-1" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#type-selector").select2({
+        minimumResultsForSearch: -1,
+        placeholder: "Filter by type",
+      });
+      //   $("#type").select2({
+      //       placeholder: "Select a programming language",
+      //       allowClear: true
+      //   });
+      // $("#entry-selector").select1({
+      //     minimumResultsForSearch: -1,
+      //   placeholder: "List entry",
+      // //   allowClear: true,
+      //   multiple:true,
+      //   maximumSelectionLength:2
+      // });
+    });
+  </script>
+</body>
+
+</html>
