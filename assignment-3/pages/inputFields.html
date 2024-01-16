@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma-Web UI Components Dropdown</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+
+<body>
+  <div class="custome-container">
+    <!-- -------------header section-------------- -->
+    <section id="header">
+      <nav class="nav d-flex align-items-center">
+        <h3>Web UI Components</h3>
+        <button type="button" class="btn btn-primary ml-auto header-btn">
+          Input Fields
+        </button>
+      </nav>
+    </section>
+    <!-- -- -------------input fields section-------------- -->
+
+    <section id="input-fields">
+      <h5>Input Fields</h5>
+    <hr>
+      <div class="input-fields">
+        <div class="row">
+          <div class="col-sm-6 group-flex">
+            <input class="form-control" type="text" placeholder="Input Field" />
+            <input class="form-control green-focus" type="text" placeholder="Input Field" />
+
+            <!-- Actual search box -->
+            <div class="input-group has-search">
+              <span class="fa fa-search form-control-feedback"></span>
+              <input type="text" class="form-control" placeholder="Search" />
+            </div>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Input Field" aria-label="Input group example"
+                aria-describedby="btnGroupAddon" />
+              <div class="input-group-append">
+                <div class="input-group-text" id="btnGroupAddon">Button</div>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text" id="btnGroupAddon">+91</div>
+              </div>
+              <input type="number" class="form-control" placeholder="Phone Number" aria-label="Input group example"
+                aria-describedby="btnGroupAddon" />
+            </div>
+            <div class="floating">
+              <input id="form_name1" type="text" class="form-control" aria-label="Input group example"
+                aria-describedby="btnGroupAddon" required />
+              <label for="form_name1">Floating Label</label>
+            </div>
+          </div>
+          <div class="col-sm-6 group-flex">
+            <input class="form-control" type="password" placeholder="Password" />
+            <input class="form-control red-focus" type="text" placeholder="Input Field" />
+            <select title="entry" class="form-control" name="entry" id="entry-selector" multiple>
+              <option></option>
+              <option value="1">List entry #1</option>
+              <option value="2">List entry #2</option>
+              <option value="3">List entry #3</option>
+              <option value="4">List entry #4</option>
+              <option value="5">List entry #5</option>
+            </select>
+            <div class="input-group floating">
+              <input id="form_name2" type="text" class="form-control" aria-label="Input group example"
+                aria-describedby="btnGroupAddon" required />
+              <label for="form_name2">Floating Label</label>
+              <div class="input-group-append">
+                <div class="input-group-text bg-primary text-white" id="btnGroupAddon">
+                  Button
+                </div>
+              </div>
+            </div>
+            <div class="input-group">
+              <input type="number" class="form-control" placeholder="0.00" aria-label="Input group example"
+                aria-describedby="btnGroupAddon" />
+              <div class="input-group-append">
+                <div class="input-group-text" id="btnGroupAddon">USD</div>
+              </div>
+            </div>
+            <div class="floating">
+              <input id="form_name3" type="text" class="form-control" aria-describedby="emailHelp"
+                aria-label="Input group example" aria-describedby="btnGroupAddon" required />
+              <label for="form_name3">Floating Label</label>
+              <small id="emailHelp" class="validation-text">This field is required</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#entry-selector").select2({
+        // minimumResultsForSearch: -1,
+        placeholder: "List entry",
+
+        // multiple: true,
+        maximumSelectionLength: 2,
+      });
+    });
+  </script>
+</body>
+
+</html>
