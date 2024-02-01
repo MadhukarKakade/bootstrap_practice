@@ -1,0 +1,114 @@
+/* ------------------large width----------------- */
+
+@media only screen and (max-width: 1112px) {
+    /* .blog {
+      padding: 10px;
+    } */
+    .blog .blog-details > p {
+      font-size: 15px;
+    }
+  }
+  
+  /* ------------------medium width----------------- */
+  @media only screen and (max-width: 925px) {
+    .blogs {
+      grid-template-columns: 500px;
+    }
+  }
+  
+  /* ------------------small-medium width----------------- */
+  @media only screen and (max-width: 765px) {
+    #banner,
+    #blogs,#single-blog,#related-news {
+      margin-bottom: 50px;
+    }
+    .single-blog .blog{
+      margin-bottom: 10px;
+      }
+    .single-blog .blog-details{
+      width: 70%;
+    }
+    .single-blog>h2{
+      font-size: 30px;
+    }
+    .single-blog > p,
+  .single-blog > ul > li,
+  .single-blog > ol > li {
+      margin-bottom: 20px;
+  }
+  }
+  
+  /* ------------------small width----------------- */
+  @media only screen and (max-width: 650px) {
+    .front-banner {
+      height: 300px;
+    }
+  
+    .heading h1 {
+      font-size: 30px;
+    }
+  
+    .blog .blog-img p {
+      font-size: 15px;
+    }
+    .single-blog .blog-details{
+      width: 100%;
+    }
+    .quote>div:last-child{
+      padding: 30px 40px;
+     
+    }
+  }
+  
+  /* ------------------extra small width----------------- */
+  
+  @media only screen and (max-width: 500px) {
+    .blogs {
+      grid-template-columns: 1fr;
+    }
+    .blog .blog-img p {
+      font-size: 11px;
+      padding: 15px 0px;
+    }
+  
+    /*  .heading{
+        text-align: center;
+      } */
+    .heading h1,
+    .blogs .blog > h3, .single-blog>h2{
+      font-size: 25px;
+    }
+    .single-blog>h2{
+      margin-bottom: 10px;
+    }
+    .heading > p,
+    .heading + div > p,
+    .heading + p,
+    .blogs .blog > p,  .single-blog > p,
+    .single-blog > ul > li,
+    .single-blog > ol > li {
+      font-size: 14px;
+    }
+  .quote{
+      margin: 25px 0;
+  }
+  .quote>div>p{
+      font-size: 16px;
+  }
+  .news-title{
+      flex-direction: column;
+      margin-bottom: 30px;
+  }
+  }
+  
+  @media only screen and (max-width: 410px) {
+  
+      
+    #banner .heading > h1 {
+      font-size: 40px;
+    }
+    .news-title>h2 {
+      font-size: 30px;
+    }
+  }
+  
