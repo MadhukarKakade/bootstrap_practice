@@ -1,0 +1,83 @@
+
+
+/* ------------------large width----------------- */
+
+@media only screen and (max-width: 1112px) {
+    .get-in-touch {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+    /* ------------------medium width----------------*/
+    @media only screen and (max-width: 990px) {
+    
+    }
+      
+      /* ------------------small-medium width----------------- */
+      @media only screen and (max-width: 765px) {
+        #banner,#contact{
+          margin-bottom: 50px;
+        }
+        .contact{
+            gap: 50px;
+        }
+      }
+      
+      /* ------------------small width----------------- */
+      @media only screen and (max-width: 650px) {
+        .front-banner {
+          height: 300px;
+        }
+      
+        .heading h1 {
+          font-size: 30px;
+        }
+        .mail-box{
+       
+            grid-template-columns: 1fr ;
+            grid-template-rows:auto ;
+      }
+    }
+      
+      /* ------------------extra small width----------------- */
+      
+      @media only screen and (max-width: 500px) {
+       
+      
+      
+        .heading h1
+        {
+          font-size: 25px;
+        }
+       
+        .heading > p,
+        .heading + div > p,
+        .heading + p, .team-child > p {
+          font-size: 14px;
+        }
+        .team-child > h3{
+          font-size: 20px;
+        }
+        .heading + p {
+          margin-bottom: 20px;
+        }
+        .contact-box .rounded-circle{
+            width: 50px;
+        height: 50px;
+      
+        font-size: 22px;
+        padding-left: 5px;
+          }
+    
+      }
+      
+      @media only screen and (max-width: 410px) {
+      
+          
+        #banner .heading > h1 {
+          font-size: 40px;
+        }
+      
+      }
+      
+    
