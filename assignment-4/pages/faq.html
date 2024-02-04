@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma-FAQ</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../styles/component-styles/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="../styles/component-styles/navbar.responsive.css"
+    />
+    <link rel="stylesheet" href="../styles/component-styles/banner.css" />
+    <link rel="stylesheet" href="../styles/faq.css" />
+    <link rel="stylesheet" href="../styles/faq.responsive.css" />
+
+    <link rel="stylesheet" href="../styles/component-styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="../styles/component-styles/footer.responsive.css"
+    />
+  </head>
+
+  <body>
+    <!-- ------------- header section ------- -->
+    <header id="header"></header>
+    <!-- ------------- navbar section ------- -->
+    <section id="navbar-box" class="sticky-top bg-white"></section>
+    <div id="body-height">
+      <!-- ------------banner-section ---------- -->
+      <section id="banner">
+        <div class="container-fluid">
+          <div class="front-banner row">
+            <div class="banner-content col-lg-5">
+              <div class="banner-content-wrap">
+                <div class="heading">
+                  <p><span class="square"></span> Quick Solution</p>
+                  <h1>Frequently Asked Questions</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------faq-section ---------- -->
+      <section id="faq">
+        <div class="custome-container">
+          <div class="faq">
+            <div class="category">
+              <div>
+                <div class="question-categories">
+                  <h5>Categories</h5>
+
+                  <p>Main Questions</p>
+                  <p>Common Queries</p>
+                  <p>General Questions</p>
+                  <p>Legal information</p>
+                </div>
+              </div>
+            </div>
+
+            <div id="faq-accordion">
+              <div class="card">
+                <div
+                  class="card-header card-link small-heading d-flex justify-content-between"
+                  data-toggle="collapse"
+                  href="#collapseOne"
+                >
+                  <a> How does our pricing works ? </a>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </div>
+                <div id="collapseOne" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div
+                  class="card-header card-link small-heading d-flex justify-content-between"
+                  data-toggle="collapse"
+                  href="#collapseThree"
+                >
+                  <a> How does our pricing works ? </a>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse show"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Objectively innovated empowered manufactured products where
+                    as parallel holisticly predominat extensible testing
+                    procedures reliable supply chains dramatically engage
+                    top-line web services vis-a-vis cutting-edge deliverables.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div
+                  class="card-header card-link small-heading d-flex justify-content-between"
+                  data-toggle="collapse"
+                  href="#collapseFour"
+                >
+                  <a class=""> Do You Offer Volume Or Loyalty Discounts? </a>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </div>
+                <div
+                  id="collapseFour"
+                  class="collapse"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div
+                  class="card-header card-link small-heading d-flex justify-content-between"
+                  data-toggle="collapse"
+                  href="#collapseTwo"
+                >
+                  <a class=""> What Types Of Companies Do You Work With? </a>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- ------------ footer-section ---------- -->
+    <section id="footer"></section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="../scripts/index.js"></script>
+  </body>
+</html>

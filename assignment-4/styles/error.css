@@ -1,0 +1,169 @@
+#error {
+    background-image: url("../images/404-error.svg");
+    width: 100%;
+    height: 815px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #error > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(55, 57, 63, 0.91);
+    backdrop-filter: blur(5.5px);
+  }
+  
+  .error {
+    max-width: 862px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+  }
+  .error > img {
+    max-width: 575.43px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .error > h4 {
+    font-family: Poppins;
+    font-size: 60px;
+  
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 25px;
+  }
+  .error > p {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 146.187%;
+    margin-bottom: 46px;
+  }
+  .error > button {
+    display: inline-block;
+    width: 250px;
+    height: 65px;
+    background-color: var(--teal-color);
+    color: var(--black-color);
+    font-family: Cabin;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+  }
+  
+  /* ------------- password-section ----------  */
+  #password,
+  #changelog,#license {
+    margin: 150px auto;
+  }
+  
+  .password {
+    display: flex;
+    max-width: 696px;
+    width: 100%;
+    padding: 101px 116px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--white-color);
+  }
+  .password-content {
+    width: 100%;
+  }
+  .password-content > img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+  }
+  .password-content > input {
+    /* display: block; */
+    margin-top: 40px;
+    margin-bottom: 25px;
+    width: 100%;
+    padding-left: 20px;
+    height: 65px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-family: Inter;
+  }
+  .password-content > button {
+    width: 100%;
+    background-color: var(--blue-color);
+    color: #fff;
+  
+    font-family: Cabin;
+    font-size: 18px;
+  
+    font-weight: 600;
+    height: 65px;
+    text-transform: capitalize;
+    border: none;
+  }
+  
+  /* ------------- changelog-section ---------- */
+  
+  .changelog {
+    display: flex;
+    max-width: 409px;
+    width: 100%;
+  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .changelog-content .heading {
+    margin-bottom: 10px;
+  }
+  .changelog-content > p {
+    color: var(--gray-color);
+  
+    font-family: Poppins;
+    font-size: 18px;
+  }
+  
+  /* ------------- license-section ---------- */
+  .license{
+      max-width: 1218px;
+      width: 100%;
+  }
+  .license-content .heading{
+  text-align: center;
+  margin-bottom: 70px;
+  }
+  .license-content .heading>h1{
+      font-size: 60px;
+  }
+  .license-content>div{
+      margin-bottom:100px;
+  }
+  .license-content>div h4{
+      color: var(--black-color);
+  font-family: Poppins;
+  font-size: 40px;
+  
+  font-weight: 700;
+  line-height: 121%; 
+  }
+  .license-content>div h6{
+  color: var(--black-color);
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  }
+  .license-content>div p{
+      color:var(--gray-color);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 146.187%;
+  
+  }
+  .license-content>div>div{
+      margin-bottom: 24px;
+  }
+  .license-content>div span{
+      color: var(--teal-color);
+      font-weight: 400;
+  }

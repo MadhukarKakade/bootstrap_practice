@@ -1,0 +1,110 @@
+/* ------------------small-medium width----------------- */
+@media only screen and (max-width: 765px) {
+    .error {
+      max-width: 500px;
+    }
+    .error > img {
+      max-width: 470;
+    }
+    .error > h4 {
+      font-size: 40px;
+  
+      margin-bottom: 15px;
+    }
+    .error > p {
+      font-size: 16px;
+  
+      margin-bottom: 30px;
+    }
+    #password,
+    #changelog,
+    #license {
+      margin: 50px auto;
+    }
+    .password {
+      padding: 50px;
+    }
+    .license-content .heading {
+      margin-bottom: 40px;
+    }
+    .license-content .heading > h1 {
+      font-size: 40px;
+    }
+    .license-content > div {
+      margin-bottom: 50px;
+    }
+    .license-content > div h4 {
+      font-size: 30px;
+    }
+    .license-content > div h6 {
+      font-size: 25px;
+    }
+    .license-content > div p {
+      font-size: 16px;
+    }
+    .license-content > div > div {
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* ------------------extra small width----------------- */
+  
+  @media only screen and (max-width: 500px) {
+    #error {
+      height: 500px;
+    }
+  
+    .error > h4 {
+      font-size: 30px;
+    }
+    .error > button {
+      width: 200px;
+    }
+  
+    .password {
+      padding: 25px;
+    }
+    .password-content > input {
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 410px) {
+    .error > h4,
+    .license-content > div h4 {
+      font-size: 25px;
+    }
+    .error > p,
+    .license-content > div p {
+      font-size: 13px;
+    }
+    .password-content > img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 30px;
+    }
+    .heading > h1 {
+      font-size: 30px;
+    }
+    .heading > p {
+      font-size: 16px;
+    }
+    .password-content > input,
+    .password-content > button {
+      height: 40px;
+      font-size: 14px;
+    }
+    .license-content .heading > h1 {
+      font-size: 40px;
+    }
+    .license-content > div {
+      margin-bottom: 30px;
+    }
+  
+    .license-content > div h6 {
+      font-size: 16px;
+    }
+  
+  }
+  

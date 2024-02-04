@@ -1,0 +1,57 @@
+/* ------------------medium width----------------*/
+@media only screen and (max-width: 990px) {
+    .faq {
+      gap: 30px;
+    }
+    #faq-accordion {
+      gap: 15px;
+    }
+    #faq-accordion .card {
+      padding: 5px 10px;
+    }
+  }
+  
+  /* ------------------small-medium width----------------- */
+  @media only screen and (max-width: 800px) {
+    #banner,
+    #faq {
+      margin-bottom: 50px;
+    }
+    .faq {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* ------------------small width----------------- */
+  @media only screen and (max-width: 650px) {
+    .front-banner {
+      height: 300px;
+    }
+  
+    .heading h1 {
+      font-size: 30px;
+    }
+  }
+  
+  /* ------------------extra small width----------------- */
+  
+  @media only screen and (max-width: 500px) {
+    .heading h1 {
+      font-size: 25px;
+    }
+  
+    .heading > p {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 410px) {
+    #banner .heading > h1 {
+      font-size: 40px;
+    }
+    .category > div {
+      padding: 35px 20px;
+    }
+  }
+  
