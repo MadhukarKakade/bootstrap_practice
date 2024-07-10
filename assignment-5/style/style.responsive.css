@@ -1,0 +1,216 @@
+/* ------------------large screen----------------- */
+
+@media only screen and (max-width: 1050px) {
+  .prev-arrow {
+    right: 150px;
+  }
+
+  .next-arrow {
+    right: 80px;
+  }
+}
+
+/* ------------------medium-large screen----------------- */
+@media only screen and (max-width: 769px) {
+  #navbar {
+    padding: 10px 0;
+  }
+
+  #hero {
+    padding: 30px 0;
+  }
+
+  .hero-content .btn {
+    margin: 0;
+  }
+
+  .hero-info {
+    margin-top: 0px;
+  }
+
+  .customer-card {
+    right: -30px;
+  }
+
+  #feature {
+    margin: 50px auto;
+  }
+
+  .feature-title,
+  .feature {
+    width: 206px;
+    margin: auto;
+  }
+
+  .feature-title > h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  #product {
+    margin-top: 70px;
+  }
+
+  .product > h3,
+  .product > h6 {
+    text-align: center;
+  }
+
+  .product-slider .slide-arrow {
+    top: 105%;
+  }
+
+  .prev-arrow {
+    left: 40%;
+  }
+
+  .next-arrow {
+    left: 50%;
+  }
+
+  .hero-section-2-content {
+    margin-bottom: 50px;
+  }
+
+  .testimonial-title,
+  #footer > .custome-container {
+    margin: 20px auto;
+  }
+
+  .testimoial-dots {
+    margin-top: 50px;
+  }
+
+  .last-line > h6 {
+    padding: 10px;
+  }
+
+  .fill-div {
+    left: 80px;
+  }
+}
+
+/* ------------------medium screen----------------- */
+@media only screen and (max-width: 550px) {
+  h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .hero-content > h3,
+  .frame-content > h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .hero-section-2-content {
+    margin-left: 0px;
+  }
+
+  .hero-image,
+  .hero-section-2-img {
+    height: 350px;
+  }
+
+  .hero-circle {
+    height: 300px;
+    width: 300px;
+  }
+  .hero-text {
+    right: -25%;
+  }
+
+  #product {
+    margin-bottom: 100px;
+  }
+
+  .product-slider .slide-arrow {
+    top: 560px;
+  }
+
+  .prev-arrow {
+    left: 32%;
+  }
+
+  .next-arrow {
+    right: 32%;
+  }
+
+  .get-in-touch {
+    display: none;
+  }
+}
+
+/* ------------------small screen----------------- */
+@media only screen and (max-width: 450px) {
+  h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  h4,
+  .hero-section-2-content > h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  h6,
+  p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .date-hide {
+    display: none;
+  }
+
+  .hero-image,
+  .hero-section-2-img {
+    height: 300px;
+  }
+
+  .hero-circle {
+    height: 250px;
+    width: 250px;
+  }
+  .hero-text {
+    display: none;
+  }
+  .product-slider .slide-arrow {
+    top: 520px;
+    width: 40px;
+    height: 40px;
+  }
+
+  #frame {
+    margin: 50px 0;
+  }
+
+  .testimoial-dots {
+    margin-top: 25px;
+  }
+
+  .testimoial-dots li button {
+    width: 12px;
+    /* Adjust width as needed */
+    height: 12px;
+  }
+
+  .frame {
+    padding: 60px 15px !important;
+    border-radius: 16px;
+  }
+
+  .fill-div,
+  .eclips-2 {
+    display: none;
+  }
+}
+
+/* ------------------extra small screen----------------- */
+@media only screen and (max-width: 450px) {
+  #footer ul {
+    margin-top: 10px;
+    gap: 5px;
+  }
+}

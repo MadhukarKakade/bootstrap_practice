@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma-TravelXplorer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="./style/style.responsive.css" />
+</head>
+
+<body class="light">
+  <!-- ------------- header section ------- -->
+  <section id="navbar" class="sticky-top">
+    <div class="custome-container p-0">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand logo" href="#">TravelXplorer </a>
+        <div id="theme-toggle" class="mr-5 d-md-none">
+          <input class="theme-toggle" aria-label="theme-btn" type="checkbox" />
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Blog</a>
+            </li>
+          </ul>
+
+          <button class="btn" type="submit">Sign up</button>
+        </div>
+        <div id="theme-toggle" class="ml-4 mr-5 d-none d-md-block">
+          <input class="theme-toggle" aria-label="theme-btn" type="checkbox" />
+        </div>
+      </nav>
+    </div>
+
+  </section>
+ <!-- ------------- main-height section ------- -->
+  <div id="body-height">
+
+
+  <!-- ------------- hero section ------- -->
+  <section id="hero">
+    <div class="custome-container p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="hero-content m-auto m-lg-0">
+              <button class="btn">
+                Get update news
+                <img class="ml-2" src="./images/fluent_send-regular.svg" alt="" />
+              </button>
+              <h3>Your Ultimate Travel Companion</h3>
+              <p>
+                Discover, plan, and explore with ease using TravelXplorer -
+                the all-in-one travel app that empowers you to create
+                unforgettable journeys.
+              </p>
+              <div class="hero-info">
+                <div class="hero-info-data p-0 d-flex align-items-center">
+                  <i class="fa fa-map-marker mr-3" aria-hidden="true"></i>
+                  <div>
+                    <p>
+                      Location &nbsp;
+                      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    </p>
+                    <h6>Paris, France</h6>
+                  </div>
+                </div>
+
+                <div class="vertical-border"></div>
+                <div class="hero-info-data p-0 d-flex align-items-center">
+                  <i class="fa fa-calendar mr-3" aria-hidden="true"></i>
+                  <div class="date-hide">
+                    <p>
+                      Date &nbsp;
+                      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    </p>
+                    <h6>26 April 2024</h6>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center">
+                  <div class="search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <div class="hero-circle">
+                <img class="hero-img" src="./images/hero-img.png" alt="hero-img-1" />
+
+                <div class="hero-card">
+                  <div>
+                    <img src="./images/testimonial-1.svg" width="100%" alt="hero-card-testi-1" />
+                    <span class="badge">PRO</span>
+                  </div>
+                  <div>
+                    <h6>Annette Black</h6>
+                    <p>Director, Producer</p>
+                    <p class="hero-card-info">
+                      <i class="fa fa-heart-o mr-1" aria-hidden="true"></i><span class="mr-2">12</span><i
+                        class="fa fa-comment-o mr-1" aria-hidden="true"></i><span class="mr-2">3</span><i
+                        class="fa fa-users mr-1" aria-hidden="true"></i><span class="mr-3">100</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="hero-text">
+                  <div class="d-flex justify-content-between">
+                    <h5>Text</h5>
+                    <p>
+                      <i class="fa fa-circle" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i><i
+                        class="fa fa-circle" aria-hidden="true"></i>
+                    </p>
+                  </div>
+                  <div class="progress blue">
+                    <span class="progress-left">
+                      <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                      <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">47%</div>
+                  </div>
+                  <div>
+                    <h6>
+                      <i class="fa fa-circle first-dot" aria-hidden="true"></i><span>Restless</span>
+                      <i class="fa fa-circle second-dot ml-2" aria-hidden="true"></i>
+                      <span>Awake</span>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <!-- ------------- feature section ------- -->
+ <section id="feature">
+    <div class="custome-container p-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-3 col-sm-6 feature-title">
+            <h4>WHAT WE SERVE</h4>
+            <h3>Top Values For You</h3>
+            <p>Embrace life's vastness, venture forth,</p>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 feature mb-4 mb-lg-0">
+            <img src="./images/bag-icon.svg" alt="bag-icon" />
+            <h4>Lot of choices</h4>
+            <p>Embrace life's vastness, venture forth,</p>
+          </div>
+          <div class="col-lg-3 col-sm-6 feature mb-4 mb-lg-0">
+            <img src="./images/plane-icon.svg" alt="bag-icon" />
+            <h4>Best Tour Guide</h4>
+            <p>Embrace life's vastness, venture forth,</p>
+          </div>
+          <div class="col-lg-3 col-sm-6 feature">
+            <img src="./images/home-icon.svg" alt="bag-icon" />
+            <h4>Easy Booking</h4>
+            <p>Embrace life's vastness, venture forth,</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <!-- ------------- product section ------- -->
+   <section id="product">
+    <div class="custome-container p-0">
+      <div class="container-fluid">
+        <div class="product">
+          <h6>TOP DESTINATION</h6>
+
+          <h3>Explore Top Destination</h3>
+
+          <div class="product-slider">
+            <div>
+              <div class="product-content">
+                <img src="./images//slider-img-1.svg" alt="slider-img-1" />
+                <h6>Enjoy the Beauty of North Africa</h6>
+                <p>Sahara, Africa</p>
+                <p>
+                  <i class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-1"
+                    aria-hidden="true"></i><i class="fa fa-star-o mr-1" aria-hidden="true"></i><i
+                    class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-2"
+                    aria-hidden="true"></i><span> (12 Reviews) </span>
+                </p>
+                <span class="badge badge-pill">$240</span>
+                <span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
+              </div>
+            </div>
+            <div>
+              <div class="product-content">
+                <img src="./images//slider-img-2.svg" alt="slider-img-2" />
+                <h6>Enjoy the Beauty of North Africa</h6>
+                <p>Sahara, Africa</p>
+                <p>
+                  <i class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-1"
+                    aria-hidden="true"></i><i class="fa fa-star-o mr-1" aria-hidden="true"></i><i
+                    class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-2"
+                    aria-hidden="true"></i><span> (12 Reviews) </span>
+                </p>
+                <span class="badge badge-pill">$240</span>
+                <span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
+              </div>
+            </div>
+
+            <div>
+              <div class="product-content">
+                <img src="./images//slider-img-3.svg" alt="slider-img-3" />
+                <h6>Enjoy the Beauty of North Africa</h6>
+                <p>Sahara, Africa</p>
+                <p>
+                  <i class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-1"
+                    aria-hidden="true"></i><i class="fa fa-star-o mr-1" aria-hidden="true"></i><i
+                    class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-2"
+                    aria-hidden="true"></i><span> (12 Reviews) </span>
+                </p>
+                <span class="badge badge-pill">$240</span>
+                <span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
+              </div>
+            </div>
+            <div>
+              <div class="product-content">
+                <img src="./images//slider-img-1.svg" alt="slider-img-1" />
+                <h6>Enjoy the Beauty of North Africa</h6>
+                <p>Sahara, Africa</p>
+                <p>
+                  <i class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-1"
+                    aria-hidden="true"></i><i class="fa fa-star-o mr-1" aria-hidden="true"></i><i
+                    class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-2"
+                    aria-hidden="true"></i><span> (12 Reviews) </span>
+                </p>
+                <span class="badge badge-pill">$240</span>
+                <span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
+              </div>
+            </div>
+            <div>
+              <div class="product-content">
+                <img src="./images//slider-img-2.svg" alt="slider-img-2" />
+                <h6>Enjoy the Beauty of North Africa</h6>
+                <p>Sahara, Africa</p>
+                <p>
+                  <i class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-1"
+                    aria-hidden="true"></i><i class="fa fa-star-o mr-1" aria-hidden="true"></i><i
+                    class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-2"
+                    aria-hidden="true"></i><span> (12 Reviews) </span>
+                </p>
+                <span class="badge badge-pill">$240</span>
+                <span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
+              </div>
+            </div>
+
+            <div>
+              <div class="product-content">
+                <img src="./images//slider-img-3.svg" alt="slider-img-3" />
+                <h6>Enjoy the Beauty of North Africa</h6>
+                <p>Sahara, Africa</p>
+                <p>
+                  <i class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-1"
+                    aria-hidden="true"></i><i class="fa fa-star-o mr-1" aria-hidden="true"></i><i
+                    class="fa fa-star-o mr-1" aria-hidden="true"></i><i class="fa fa-star-o mr-2"
+                    aria-hidden="true"></i><span> (12 Reviews) </span>
+                </p>
+                <span class="badge badge-pill">$240</span>
+                <span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- ------------- hero-section-2 ------- -->
+   <section id="hero-section-2">
+    <div class="custome-container p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="hero-section-2-img">
+              <div class="hero-circle">
+                <img class="hero-img2" src="./images/hero-img-2.svg" alt="sdf" />
+                <img class="music-icon" src="./images/music-icon.svg" alt="music-icon" />
+                <div class="customer-card">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <h4>45K+</h4>
+                  <p>Happy Customers</p>
+                  <div>
+                    <img src="./images/customer-1.svg" alt="customer-1" />
+                    <img src="./images/customer-2.svg" alt="customer-2" />
+                    <img src="./images/customer-3.svg" alt="customer-3" />
+                    <img src="./images/customer-4.svg" alt="customer-4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-section-2-content">
+              <h4>WHAT WE SERVE</h4>
+
+              <h3>Book flights, accommodations, and activities</h3>
+              <p>
+                Embrace life's vastness, venture forth, and discover the
+                wonders waiting beyond. The world beckons; seize its grand
+                offerings now!
+              </p>
+              <div class="container">
+                <div class="row">
+                  <div class="col hero-section-2-details">
+                    <h3>20</h3>
+                    <p>Years of Experience</p>
+                  </div>
+                  <div class="col hero-section-2-details">
+                    <h3>460+</h3>
+                    <p>Destination Collaboration</p>
+                  </div>
+                  <div class="col hero-section-2-details">
+                    <h3>50K+</h3>
+                    <p>Happy Customer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <!-- ------------- testimonial section ------- -->
+  <section id="testimonial">
+    <div class="custome-container">
+      <div class="testimonial-title">
+        <span class="badge badge-pill">Testimonials</span>
+        <h3>What Customers Say</h3>
+        <p>
+          Embrace life's vastness, venture forth, and discover the wonders
+          waiting beyond. The world beckons; seize its grand offerings now!
+        </p>
+      </div>
+      <div class="testimonial">
+        <div>
+          <div class="testimonial-card">
+            <img class="testimonial-img" src="./images/testimonial-1.svg" alt="testimonial-1" />
+            <h6>Annette Black</h6>
+            <p>Director, Producer</p>
+
+            <div class="testimonial-content">
+              <p>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </p>
+              <p>Amazing app! Made my trip so memorable.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial-card">
+            <img class="testimonial-img" src="./images/testimonial-2.svg" alt="testimonial-2" />
+            <h6>Annette Black</h6>
+            <p>Director, Producer</p>
+
+            <div class="testimonial-content">
+              <p>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </p>
+              <p>Amazing app! Made my trip so memorable.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial-card">
+            <img class="testimonial-img" src="./images/testimonial-3.svg" alt="testimonial-3" />
+            <h6>Annette Black</h6>
+            <p>Director, Producer</p>
+
+            <div class="testimonial-content">
+              <p>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </p>
+              <p>Amazing app! Made my trip so memorable.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="testimonial-card">
+            <img class="testimonial-img" src="./images/testimonial-1.svg" alt="testimonial-1" />
+            <h6>Annette Black</h6>
+            <p>Director, Producer</p>
+
+            <div class="testimonial-content">
+              <p>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </p>
+              <p>Amazing app! Made my trip so memorable.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial-card">
+            <img class="testimonial-img" src="./images/testimonial-2.svg" alt="testimonial-2" />
+            <h6>Annette Black</h6>
+            <p>Director, Producer</p>
+
+            <div class="testimonial-content">
+              <p>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </p>
+              <p>Amazing app! Made my trip so memorable.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial-card">
+            <img class="testimonial-img" src="./images/testimonial-3.svg" alt="testimonial-3" />
+            <h6>Annette Black</h6>
+            <p>Director, Producer</p>
+
+            <div class="testimonial-content">
+              <p>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </p>
+              <p>Amazing app! Made my trip so memorable.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="testimonial-card">
+            <img class="testimonial-img" src="./images/testimonial-1.svg" alt="testimonial-1" />
+            <h6>Annette Black</h6>
+            <p>Director, Producer</p>
+
+            <div class="testimonial-content">
+              <p>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </p>
+              <p>Amazing app! Made my trip so memorable.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial-card">
+            <img class="testimonial-img" src="./images/testimonial-2.svg" alt="testimonial-2" />
+            <h6>Annette Black</h6>
+            <p>Director, Producer</p>
+
+            <div class="testimonial-content">
+              <p>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </p>
+              <p>Amazing app! Made my trip so memorable.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial-card">
+            <img class="testimonial-img" src="./images/testimonial-3.svg" alt="testimonial-3" />
+            <h6>Annette Black</h6>
+            <p>Director, Producer</p>
+
+            <div class="testimonial-content">
+              <p>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star mr-1" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+              </p>
+              <p>Amazing app! Made my trip so memorable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ------------- frame section ------- -->
+ <section id="frame">
+    <div class="custome-container">
+      <div class="frame">
+        <div class="frame-content">
+          <h2>Start Your Adventure Today!</h2>
+          <p>
+            Download the app now and unlock a world of possibilities. Embark
+            on extraordinary journeys with TravelXplorer.
+          </p>
+          <button class="btn" type="submit">Get Started Now</button>
+
+          <div class="eclips-2"></div>
+        </div>
+        <div class="eclips-1"></div>
+        <div class="fill-div"></div>
+      </div>
+    </div>
+  </section> 
+</div>
+  <!-- ------------- footer section ------- -->
+  <section id="footer">
+    <div class="custome-container p-0">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="get-in-touch">
+              <h4>Get In Touch</h4>
+              <p>the quick fox jumps over the lazy dog</p>
+              <p class="social-icons">
+                <i class="fa fa-facebook-official mr-3" aria-hidden="true"></i><i class="fa fa-instagram mr-3"
+                  aria-hidden="true"></i><i class="fa fa-twitter" aria-hidden="true"></i>
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-3 col-6">
+            <h4>Company info</h4>
+            <ul>
+              <li><a href="#"> About Us</a></li>
+              <li><a href="#">Carrier</a></li>
+              <li><a href="#">We are hiring</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3 col-6">
+            <h4>Features</h4>
+            <ul>
+              <li><a href="#"> Business Marketing</a></li>
+              <li><a href="#">User Analytic</a></li>
+              <li><a href="#">Live Chat</a></li>
+              <li><a href="#">Unlimited Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="last-line">
+      <h6>Made With Love By Figmaland All Right Reserved</h6>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".theme-toggle").change(function () {
+        console.log(1);
+        if ($("body").hasClass("light")) {
+          $("body").removeClass("light");
+          $("body").addClass("dark");
+          $(".navbar").removeClass("navbar-light");
+          $(".navbar").addClass("navbar-dark");
+        } else {
+          $("body").removeClass("dark");
+          $("body").addClass("light");
+          $(".navbar").removeClass("navbar-dark");
+          $(".navbar").addClass("navbar-light");
+        }
+      });
+      $(".product-slider").slick({
+        slidesToShow: 3,
+        infinite: false,
+        slidesToScroll: 1,
+        dots: false,
+        responsive: [
+          {
+            breakpoint: 1050,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 770,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+        prevArrow:
+          '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+        nextArrow:
+          '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+      });
+
+      $(".testimonial").slick({
+        slidesToShow: 3,
+        infinite: false,
+        slidesToScroll: 3,
+        dots: true,
+        arrows: false,
+        dotsClass: "testimoial-dots",
+        responsive: [
+          {
+            breakpoint: 1050,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 730,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    });
+  </script>
+</body>
+
+</html>
