@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap 4 css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/bootsrap-muliselect.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css"
+    />
+    <!-- stylesheet css -->
+    <!-- <link rel="stylesheet" href="css/stylesheet.css" /> -->
+    <title>Proscale | Form</title>
+    <style>
+      body {
+        color: #212529;
+      }
+      #get-connect-form {
+        height: 100vh;
+        background-image: url("./sierra-saas-banner.jpg");
+        background-repeat: no-repeat;
+        background-position: center -90px;
+        background-size: cover;
+      }
+
+      #get-connect-form .side-poster {
+        /* margin-right: 10px; */
+        background-image: url("./photo-lady-great-mood-telling-employees-via-video-link-about-improving-economic-condition-busin.jpg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: 100% 100%; */
+        background-size: cover;
+        margin-left: -16px;
+        border-radius: 16px 0 0 16px;
+      }
+      #get-connect-form .row{
+        background-color: #ffffff;
+        border-radius: 16px;
+        
+      }
+      .btn-group {
+        width: 100%;
+        display: block;
+        text-align: left;
+      }
+      .cust-container {
+        max-width: 1244px;
+        margin: auto;
+        padding: 0 20px;
+      }
+      form.contactUs-form .multiselect.dropdown-toggle {
+        height: 48px;
+        border-radius: 4px;
+        border: 1px solid #b3b5ba;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #787a7d;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14.4px;
+        border: 1px solid #b3b5ba;
+        background-color: #ffffff !important;
+        width: 100%;
+        text-align: left;
+        padding: 0 16px;
+        font-family: "BentonSans Regular", sans-serif;
+        overflow: hidden;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: linear-gradient(to bottom, #fff, #fff) !important;
+        box-shadow: none;
+      }
+      .btn-group > .multiselect-container.dropdown-menu {
+        width: 100% !important;
+        /* font-size: 12px; */
+        z-index: 9999;
+        border-color: #b3b5ba;
+      }
+      .multiselect-container > li {
+        /* padding: 8px 16px; */
+      }
+      .multiselect-container > li > a > label input[type="radio"] {
+        position: relative;
+        /* top:1px; */
+        margin-right: 8px;
+      }
+
+      /* [type="radio"]:checked:before,
+      [type="radio"]:not(:checked):before {
+        content: "";
+        position: absolute;
+        left: -2px;
+        top: 0;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #bc0019;
+        border-radius: 100%;
+        background: #ffffff !important;
+        z-index: 2;
+      }
+      [type="radio"]:checked:after,
+      [type="radio"]:not(:checked):after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        background: #bc0019;
+        position: absolute;
+        top: 4px;
+        left: 2px;
+        z-index: 3;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+      }
+      [type="radio"]:not(:checked):after {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+      [type="radio"]:checked:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      } */
+      .multiselect-container label.radio input[type="radio"] {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        top: 2px;
+        margin: 0;
+        cursor: pointer;
+        transform: scale(1);
+        margin-right: 6px;
+        accent-color: #bc0019;
+      }
+
+      .multiselect-container label.radio input[type="radio"]:checked {
+        border-color: #bc0019;
+      }
+
+      .multiselect-container > li > a > label {
+        padding: 5px 16px;
+        width: 100%;
+      }
+      .multiselect-container > li > a > label:hover {
+        background-color: #d0d9e1;
+      }
+      .contactUs-form-Box {
+        padding: 90px 90px 55px 90px;
+        /* background: #fafafc; */
+        background-color: #f7f7f7;
+      }
+
+      /* .elementskit-section-subtitle {
+  text-align: center;
+  color: #BC0019;
+  font-weight: 600;
+  text-transform: uppercase;
+} */
+.get-contact-box{
+  background-color: white;
+  padding: 30px 32px;
+}
+/* form.contactUs-form .form-group > label{
+  color: #ffffff; 
+} */
+/* .get-contact-box  h3{
+  color: #ffffff;
+} */
+      form.contactUs-form input.form-control,
+      form.contactUs-form textarea {
+        margin-bottom: 20px;
+        padding: 6px 20px;
+        border-radius: 4px;
+        border: 0;
+        border: 1px solid #b3b5ba;
+        box-shadow: none;
+      }
+
+      
+      form.contactUs-form   .intl-tel-input,
+      form.contactUs-form  .iti{
+  width: 100%;
+}
+form.contactUs-form  .iti__country-list {
+  width: 520px;
+}
+      form.contactUs-form input.form-control {
+        height: 50px;
+      }
+
+      form.contactUs-form textarea {
+        resize: none;
+      }
+
+      form.contactUs-form .btn-submit {
+        background: #bc0019;
+        color: #ffffff;
+        border: 0;
+        border-radius: 4px;
+        height: 50px;
+        width: 50%;
+        padding: 0 25px;
+        font-weight: 600;
+      }
+      .required > label::after {
+        content: "*";
+        color: #f00f00;
+        margin-left: 2px;
+      }
+
+      .form-box{
+        padding: 16px 20px;
+        border-radius: 16px;
+       
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: 900px;
+        margin: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="get-connect-form">
+      <div class="cust-container">
+        <div class="form-box">
+        <div class="row">
+          <div class="col-md-6 p-0">
+            <div class="side-poster">
+              <!-- <img src="./photo-lady-great-mood-telling-employees-via-video-link-about-improving-economic-condition-busin.jpg" alt=""  width="95%" height="100%"/> -->
+              <!-- <img
+                src="https://plus.unsplash.com/premium_photo-1680404114169-e254afa55a16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ubmVjdHxlbnwwfHwwfHx8MA%3D%3D"
+                alt=""
+                width="95%"
+                height="100%"
+              /> -->
+            </div>
+            <!-- <div class="bg-dark text-white d-flex justify-content-center align-items-center" style="height: 100vh; background-image: url('your-image-url.jpg'); background-size: cover;">
+              <div class="text-center">
+                  <h2>Bring Your Music Along</h2>
+                  <p>Try Unlimited</p>
+                  <h3>$9.99 / Month</h3>
+              </div>
+          </div> -->
+          </div>
+          <div class="col-md-6 ">
+            <div class="get-contact-box">
+              <div class="contactUs-box">
+                <h3>Get Connect</h3>
+                <!-- <h2 class="ekit-heading-title">Our team will contact you shortly</h2> -->
+                <!-- <p class="text-center">Our team will contact you shortly</p> -->
+              </div>
+              <form class="contactUs-form">
+                <!-- <div class="form-group">
+                  <label for="fullName">Full Name</label>
+                  <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+              </div>
+              <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Enter your password">
+              </div>
+              <div class="form-group">
+                  <label for="confirmPassword">Confirm Password</label>
+                  <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password">
+              </div> -->
+                <div class="form-group">
+                  <label for="purpose"
+                    >What is the purpose of your visit today?</label
+                  >
+                  <select class="form-control select" id="purpose">
+                    <option value="">Select Option</option>
+                    <option>Business Consulting</option>
+                    <option>Cybersecurity</option>
+                    <option>Digitization</option>
+                    <option>Artificial Intelligence</option>
+                    <option>eCommerce</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="companyDescription"
+                    >How would you describe <strong>Proscale</strong> to a
+                    friend?</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="companyDescription"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div class="form-group required">
+                  <label for="contactMethod"
+                    >How do you want us to find you?</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control mt-2"
+                    id="contactEmail"
+                    placeholder="Email"
+                  />
+                  <input
+                    type="text"
+                    id="mobileCode"
+                    class="form-control mobile-num-code"
+                    placeholder="Phone Number"
+                    name="name"
+                  />
+                  <!-- <select class="form-control select" id="contactCountry">
+                    <option value="Canada">Canada</option>
+                    <option value="USA">USA</option>
+                  </select> -->
+                </div>
+
+                <div class="form-group">
+                  <label for="referralSource"
+                    >Where did you first find out about us?</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="referralSource"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <!-- <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="termsCheck">
+                  <label class="form-check-label" for="termsCheck">
+                      By signing up, you agree to the <a href="#" aria-label="Read the terms of service">Terms of Service</a>
+                  </label>
+              </div> -->
+                <button type="submit" class="btn-submit mt-3">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+    <script src="./js/bootsrap-multiselect.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".select").multiselect();
+        $("#mobileCode").intlTelInput({
+          initialCountry: "ca", // Set initial country to Canada
+  separateDialCode: true, // Display separate dial code
+  strictMode: true, // Enable strict mode to enforce number formatting
+  onlyCountries: ["ca", "us"], // Restrict to Canada and USA
+  // utilsScript: "/intl-tel-input/js/utils.js" 
+        });
+      });
+    </script>
+  </body>
+</html>
