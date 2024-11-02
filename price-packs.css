@@ -1,0 +1,134 @@
+#banner{
+  margin-bottom: 150px;
+}
+.front-banner {
+ 
+  height: 485px;
+  background-image: url("../images/about-us-banner.svg");
+
+}
+
+
+
+/* -- ------------price-packs-section ---------- -- */
+#price-packs{
+  margin-bottom: 150px;
+}
+
+
+#price-packs .heading {
+  max-width: 619px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 42px;
+}
+
+.price-packs {
+ display: flex;
+
+ justify-content: space-between;
+ align-items: center;
+ gap: 31px;
+  font-size: 18px;
+  text-align: center;
+
+  font-family: Inter;
+
+  font-style: normal;
+}
+.price-packs >div{
+    max-width: 386px;
+    width: 100%;
+    
+    background-color: var(--white-color);
+}
+.price-pack{
+    padding: 47px 31px;
+}
+.price-pack > h3 {
+  color: var(--black-color);
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin-bottom: 24px;
+}
+
+
+
+.price-info {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: center;
+  padding: 23px;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+.price-info >h2{
+color: var(--black-color);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%;
+}
+.price-pack > ul {
+    color: var(--gray-color);
+  padding: 0px;
+  list-style: none;
+  margin: 34px 0 34px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.price-pack > ul > li {
+ 
+
+  font-weight: 400;
+  line-height: 135%; /* 24.3px */
+  
+}
+
+.price-pack > ul > li > span {
+  color: var(--black-color);
+  font-weight: 700;
+}
+
+.year-price{
+    background-color: var(--teal-color);
+   padding: 7px 32px;
+   color: #208068;
+}
+.offer-title{
+    background-color: var(--teal-color);
+    padding: 10px 126px;
+font-family: Poppins;
+font-size: 20px;
+color: #fff;
+font-weight: 600;
+
+}
+#price-packs .offer-price{
+    color: #fff;
+    background-color: var(--blue-color);
+}
+.offer-price h2,.offer-price h3,.offer-price ul,.offer-price .year-price{
+    color: white;
+
+}
+.offer-price ul>li >span{
+    color: var(--teal-color);
+}
+.offer-price.price-info {
+    border-color: #fff;
+}
+.offer-price .year-price,.offer-price .more-work{
+    background-color: #fff;
+    color: var(--blue-color);
+}
+.price-packs>div:last-child{
+    align-self: end;
+}

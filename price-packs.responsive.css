@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1112px) {
+    .price-packs {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 70px;
+    }
+}
+
+
+/* ------------------small width----------------- */
+@media only screen and (max-width: 650px) {
+    .price-packs {
+    gap: 30px;
+    
+    }
+    #price-packs,.front-banner{
+        margin-bottom: 70px;
+    }
+}
