@@ -1,0 +1,40 @@
+@media only screen and (max-width: 750px) {
+
+    .front-banner, #projects{
+         margin-bottom: 50px;
+       }
+
+
+    }
+
+    @media only screen and (max-width: 650px) {
+
+        .front-banner {
+            height: 300px;}
+        .heading{
+            text-align: center;
+        }
+    .banner-content-wrap .heading > h1{
+        font-size: 40px;
+       
+    }
+    .heading h1
+    {
+      font-size: 30px;
+    }
+}
+
+    @media only screen and (max-width: 500px) {
+
+        .heading h1
+
+  {
+    font-size: 25px;
+  }
+
+    .heading > p,
+  
+  .heading + p {
+    font-size: 14px;
+  }
+}
