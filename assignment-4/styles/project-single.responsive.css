@@ -1,0 +1,55 @@
+/* ------------------large width----------------- */
+
+@media only screen and (max-width: 1112px) {
+  .project-data > div > p,
+  .project-data > ul,
+  .project-data > ol {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .front-banner,
+  #projects {
+    margin-bottom: 50px;
+  }
+  .project-info{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .front-banner ,#project-info ,#related-projects{
+    margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+  .front-banner {
+    height: 300px;
+  }
+  .heading {
+    text-align: center;
+  }
+  .banner-content-wrap .heading > h1 {
+    font-size: 40px;
+  }
+  .heading h1  ,.sub-heading{
+    font-size: 30px;
+  }
+  .project-data > div > p,
+  .project-data > ul,
+  .project-data > ol {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .heading h1 ,.sub-heading{
+    font-size: 25px;
+  }
+
+  .heading > p,
+  .heading + p {
+    font-size: 14px;
+  }
+}
