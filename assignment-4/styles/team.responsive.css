@@ -1,0 +1,91 @@
+
+
+/* ------------------large width----------------- */
+
+@media only screen and (max-width: 1112px) {
+.performance-content{
+  width: 60%;
+}
+}
+
+/* ------------------medium width----------------*/
+@media only screen and (max-width: 990px) {
+  .performance-content{
+    width: 70%;
+  }
+}
+  
+  /* ------------------small-medium width----------------- */
+  @media only screen and (max-width: 765px) {
+    #banner,
+    #team,#performance{
+      margin-bottom: 50px;
+    }
+    .performance{
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    }
+    .performance-content{
+width: 100%;
+    }
+    .performance-image{
+width: 100%;
+    }
+  }
+  
+  /* ------------------small width----------------- */
+  @media only screen and (max-width: 650px) {
+    .front-banner {
+      height: 300px;
+    }
+  
+    .heading h1 {
+      font-size: 30px;
+    }
+    .performance-content{
+      padding: 30px 15px;
+    }
+  .performance-image{
+    display: block;
+  }
+  }
+  
+  /* ------------------extra small width----------------- */
+  
+  @media only screen and (max-width: 500px) {
+   
+  
+  
+    .heading h1
+    {
+      font-size: 25px;
+    }
+   
+    .heading > p,
+    .heading + div > p,
+    .heading + p, .team-child > p {
+      font-size: 14px;
+    }
+    .team-child > h3{
+      font-size: 20px;
+    }
+    .heading + p {
+      margin-bottom: 20px;
+    }
+
+  .perfomance-statistics{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  }
+  
+  @media only screen and (max-width: 410px) {
+  
+      
+    #banner .heading > h1 {
+      font-size: 40px;
+    }
+  
+  }
+  

@@ -1,0 +1,167 @@
+#banner {
+  margin-bottom: 150px;
+}
+.front-banner {
+  height: 485px;
+  background-image: url("../images/team-banner.svg");
+}
+
+/* ------------ team-section ---------- */
+#team {
+  margin-bottom: 150px;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+
+  gap: 31px;
+  justify-content: center;
+}
+.team-info {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  cursor: pointer;
+}
+.team-info>img{
+   width: 100%;
+}
+.team-info:hover .hover-links{
+  display: flex!important;
+  background-color: rgba(107, 119, 229, 0.70);
+}
+.hover-links {
+  display: none;
+ align-items: center;
+ justify-content: center;
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  gap: 10px;
+  color: #fff;
+  font-size: 25px;
+  width: 100%;
+  height: 100%;
+}
+.hover-links .rounded-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding-left: 5px;
+  background-color: var(--teal-color);
+}
+.team-title {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.team-child {
+  /* max-width: 350px; */
+  width: 92%;
+
+  padding: 24px;
+  margin: auto;
+  background-color: #fff;
+}
+
+/* } */
+.team-child > h3 {
+  color: var(--black-color);
+
+  font-family: Poppins;
+  font-size: 25px;
+
+  font-weight: 600;
+}
+
+.team-child > p {
+  color: var(--gray-color);
+
+  font-family: Inter;
+
+  font-weight: 400;
+  line-height: 135.187%;
+  margin-bottom: 0px;
+}
+
+/* ------------performance-section ----------  */
+#performance {
+  margin-bottom: 150px;
+}
+.performance {
+  display: flex;
+}
+
+.performance-content {
+  width: 46%;
+  padding: 88px 48px;
+  background-color: var(--black-color);
+  color: #fff;
+  font-style: normal;
+}
+.performane-info .heading {
+  color: #fff;
+  margin-bottom: 13px;
+}
+.heading + p {
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 146.187%;
+  margin-bottom: 46px;
+}
+
+.perfomance-statistics {
+  display: flex;
+  gap: 19px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.perfomance-statistics .rounded-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 142.787px;
+  height: 142.787px;
+
+  border: 3px solid var(--teal-color);
+}
+.perfomance-statistics .rounded-circle > h6 {
+  text-align: center;
+
+  font-size: 20px;
+
+  width: 90px;
+}
+.numbers > h4 {
+  font-size: 40px;
+}
+.numbers > h6 {
+  font-size: 18px;
+ 
+}
+.numbers > p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 146.187%;
+  margin-bottom: 0px;
+}
+.performance {
+
+  background-image: url("../images/team-performance.svg");
+background-position-x: right;
+  background-size: contain;
+
+  background-repeat: no-repeat;
+}
+.performance-image{
+    display: none;
+}
+.performance-image>img{
+    width: 100%;
+}
